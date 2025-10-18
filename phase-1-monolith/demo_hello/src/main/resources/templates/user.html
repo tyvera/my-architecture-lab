@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>用戶信息頁面</title>
+</head>
+<body>
+<h1 th:text="'歡迎你，' + ${username}">這裡會被替換掉</h1>
+<p>你的角色是：<span th:text="${userRole}"></span></p>
+</body>
+</html>

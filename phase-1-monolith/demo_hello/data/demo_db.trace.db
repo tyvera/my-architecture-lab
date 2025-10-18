@@ -1,0 +1,6 @@
+2025-10-16 16:40:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (id, age, name, role) values (default, ?, ?, ?)"; expected "identifier"; SQL statement:
+insert into user (id, age, name, role) values (default, ?, ?, ?) [42001-214]
+2025-10-16 16:44:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+insert into users (id, age, name, role) values (default, ?, ?, ?) [42104-214]
